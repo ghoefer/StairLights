@@ -3,7 +3,7 @@ A project to prevent elderly people from falling down the stairs using Arduino a
 
 
 ## Controlling from the Serial Monitor
-Turn on the power supply and plug the arduino into your computer. Here are some example commands from Bruno (https://www.hackster.io/bportaluri/web-controlled-led-animations-with-raspberry-pi-and-arduino-112025)
+Turn on the power supply and plug the arduino into your computer. Here are some example commands from [Bruno](https://www.hackster.io/bportaluri/web-controlled-led-animations-with-raspberry-pi-and-arduino-112025)
 
 A=101 - turn on the leds
 A=251 - run a ‘larson scanner’ animation
