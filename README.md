@@ -22,13 +22,13 @@ P=[palette] - Set the palette. It must be in the [0-5] range.<br/>
 With help from from [Bruno.](https://www.hackster.io/bportaluri/web-controlled-led-animations-with-raspberry-pi-and-arduino-112025) </br>
 
 In order to connect with Alexa, you'll need to make sure your Raspberry Pi is hosting a server. </br>
-1) Navigate to your directory. cd /home/pi/AlaWeb/AlaWeb-master </br>
-2) sudo python3 AlaWeb.py /dev/ttyACM0 </br>
-3) The terminal window will now say the current IP address. Navigate there on any web browser and you'll be able to control your the lights! </br>
+1. Navigate to your directory. cd /home/pi/AlaWeb/AlaWeb-master </br>
+2. sudo python3 AlaWeb.py /dev/ttyACM0 </br>
+3. The terminal window will now say the current IP address. Navigate there on any web browser and you'll be able to control your the lights! </br>
 
 ## Controlling with Alexa
 To control with Alexa, I first built an Alexa skill by following [this tutorial](https://www.hackster.io/bportaluri/animated-smart-light-with-alexa-and-arduino-101b4b#comments). For it to work, everything has to be plugged in and on the same wifi. The skill has to be connected to the Alexa device, and the raspberry pi connected to the internet. The raspberry pi must be hosting a server (same server as controlling with Web Browser).
 
-1) Open an a second terminal window and navigate to: <mark>cd /home/pi/LightStrip/LightStrip-master/pi</mark> </br>
-2) Then type: <mark>sudo python3 lightstrip.py</mark>
-3) Then type: '''sudo python3 lightstrip.py /dev/ttyACM0''' to connect to the Arduino.
+1. Open an a second terminal window and navigate to: **cd /home/pi/LightStrip/LightStrip-master/pi </br>
+2. Then type: **sudo python3 lightstrip.py
+3. Then type: **sudo python3 lightstrip.py /dev/ttyACM0* to connect to the Arduino.
