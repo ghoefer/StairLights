@@ -32,3 +32,6 @@ To control with Alexa, I first built an Alexa skill by following [this tutorial]
 1. Open an a second terminal window and navigate to: **cd /home/pi/LightStrip/LightStrip-master/pi** </br>
 2. Then type: **sudo python3 lightstrip.py**
 3. Then type: **sudo python3 lightstrip.py /dev/ttyACM0** to connect to the Arduino.
+
+
+Check out my final project [here!](https://vimeo.com/378707365)
